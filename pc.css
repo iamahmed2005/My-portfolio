@@ -1,26 +1,62 @@
 /* For desktop: */
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
 
 /* navbar starts here  */
-.logo{
+.logo {
     text-align: left;
 }
 
-.logo img{
+.logo img {
     width: 8vw;
 }
-.heading h1{
+
+.heading h1 {
     text-align: right;
 }
 
@@ -29,17 +65,28 @@
     /* padding: 10px; */
 }
 
-.links{
+.links {
     flex-direction: row;
     justify-content: flex-end;
     padding-left: 41vw;
 }
 
-.links a{
+.links a {
     padding: 5px 7px;
     margin: 20px 0;
     background-color: #0c6168;
 }
+
+.top-icon img {
+    width: 4vw;
+    right: 8px;
+    top: 85vh;
+}
+
+.top-icon img:hover {
+    width: 5vw;
+}
+
 /* navbar ends here  */
 
 /* profile styling */
@@ -50,7 +97,7 @@
     padding: 100px 10px;
 }
 
-main .box1 img{
+main .box1 img {
     width: 12vw;
 }
 
@@ -66,7 +113,7 @@ main .box1 img{
     width: 13vw;
 }
 
-main .box1 p{
+main .box1 p {
     text-align: center;
     color: gray;
     width: 50%;
@@ -86,27 +133,49 @@ main .box1 p{
     width: 13vw;
 }
 
-.box1::after{
+.box1::after {
     display: table;
     content: '';
     clear: both;
-} 
+}
+
 /* My bio ends here  */
 
- /* About me starts here   */
+/* About me starts here   */
 
- .aboutme-img{
+.aboutme-img {
     margin-top: 5px;
     margin-bottom: 50px;
- }
+}
 
- .aboutme-img img{
+.aboutme-img img {
     width: 22vw;
     margin-top: 10px;
 }
 
-.about-desc p{
+.about-desc p {
     text-align: left;
 }
- 
- /* About me ends here   */
+
+/* About me ends here   */
+
+/* Experience & Skill starts here */
+
+.card-img img {
+    width: 10vw;
+}
+
+.card-desc2 p {
+    margin-top: 24vh;
+}
+
+.skill-container li {
+    margin: 15px 10px;
+
+}
+
+/* Experience & Skill ends here */
+
+/* Contact part starts here  */
+
+/* Contact part ends here  */
