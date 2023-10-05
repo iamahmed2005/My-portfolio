@@ -1,0 +1,26 @@
+@media only screen and (min-width: 768px) {
+    .skill-container li {
+        list-style: none;
+        font-weight: bold;
+        margin: 12px 10px;
+        position: relative;
+    }
+
+    main .box1 img {
+        width: 15vw;
+    }
+
+
+}
+
+@media only screen and (min-width: 600px) {
+    .skill-container li {
+        margin: 19px 10px;
+    }
+
+    main .box1 img {
+        width: 19vw;
+    }
+
+
+}

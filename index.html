@@ -4,11 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Ahmed's Portfolio</title>
     <!-- For mobile -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <!-- For Laptop and computer -->
-    <link rel="stylesheet" href="pc.css" media="screen and (min-width: 992px)">
+    <link rel="stylesheet" href="css/pc.css" media="screen and (min-width: 992px)">
+    <!-- For tablet -->
+    <link rel="stylesheet" href="css/tablet.css">
+    <script src="https://kit.fontawesome.com/04adb8282f.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -83,7 +86,7 @@
 
         <!-- Experience & Skill starts here  -->
 
-        <div class="Professional" id="skill-section">
+        <div class="Professional">
             <div class="education col-4">
                 <div class="card">
                     <div class="card-img"><img src="images/edu.png" alt="Education"></div>
@@ -130,7 +133,7 @@
                 </div>
 
             </div>
-            <div class="skills col-4">
+            <div class="skills col-4"  id="skill-section">
                 <div class="card">
                     <div class="card-img"><img src="images/skills.png" alt="skills"></div>
 
@@ -162,12 +165,12 @@
         <!-- Experience & Skill ends here  -->
 
         <!-- contact starts here  -->
-        <div class="contact-box" id="contact-me">
+        <div class="contact-box">
             <div class="achievments col-4">
                 <h2>ACHIEVMENTS</h2>
                 <hr class="dotted-hr">
             </div>
-            <div class="contact-form col-4">
+            <div class="contact-form col-4" id="contact-me">
                 <h2>CONTACT ME</h2>
                 <hr class="dotted-hr">
 
@@ -175,7 +178,8 @@
 
                     <p><input type="text" placeholder="Your Name" name="Name" required></p><br>
                     <p><input type="email" placeholder="Your Email" name="Email" required></p><br>
-                    <textarea name="message" id="message" cols="30" rows="8"placeholder="Type your message here!"></textarea>
+                    <textarea name="message" id="message" cols="30" rows="8"
+                        placeholder="Type your message here!"></textarea>
 
                     <button type="submit">SEND</button>
                     <button type="reset">RESET</button>
@@ -184,12 +188,58 @@
             <div class="connections col-4">
                 <h2>OTHER WAYS TO CONNECT</h2>
                 <hr class="dotted-hr">
+
+                <div class="media-buttons">
+                    <button class="btn" onclick="window.open('https://www.facebook.com/ahmednurul.islam.10')"
+                        class="request-callback">
+                        <i class="fa-brands fa-facebook-f" style="color: #223d6d;"></i>
+                    </button>
+
+                    <button class="btn" onclick="window.open('https://twitter.com/iamahmed5020')"
+                        class="request-callback">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </button><br>
+
+                    <button class="btn"
+                        onclick="window.open('https://www.linkedin.com/in/ahmed-nurul-islam-106b2a20a/')"
+                        class="request-callback">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </button>
+
+                    <button class="btn" onclick="window.open('https://www.facebook.com/ahmednurul.islam.10')"
+                        class="request-callback">
+                        <i class="fa-brands fa-instagram" style="color: #203760;"></i>
+                    </button><br>
+
+                    <button class="btn" onclick="window.open('https://github.com/iamahmed2005')"
+                        class="request-callback">
+                        <i class="fa-brands fa-github"></i>
+                    </button>
+                </div>
             </div>
         </div>
 
         <!-- contact starts here  -->
 
     </main>
+
+    <!-- footer start here  -->
+
+    <div class="footer">
+        <div class="footer-menu col-6">
+            <a href="#go-header">Home</a>
+            <a href="#about-id">About Me</a>
+            <a href="#skill-section">Skills</a>
+            <a href="#contact-me">Contact Me</a>
+        </div>
+        <div class="footer-text col-6">
+            Copyright &copy;; 2023-2025 All Rights Reserved by Ahmed.
+        </div>
+    </div>
+
+    <!-- footer ends here  -->
+
+   
 </body>
 
 </html>
